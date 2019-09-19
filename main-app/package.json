@@ -1,0 +1,24 @@
+{
+  "name": "cartvbot",
+  "version": "1.0.0",
+  "description": "cartvbot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start" : "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+	  "cheerio": "^1.0.0-rc.2",
+    "exceljs": "^1.6.3",
+	"heroku-client": "^3.0.7",
+    "puppeteer": "^1.11.0"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.0"
+  }
+}
